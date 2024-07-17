@@ -1,0 +1,288 @@
+/*  Globals */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body Styles */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: white;
+    letter-spacing: 1.2px;
+    
+}
+
+p {
+    margin: 0 0 30px;
+    padding: 0;
+}
+
+/* Link Styles */
+
+a {
+    color: #0281ae;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #202020;
+    text-decoration: none;
+}
+
+/* Image Styles */
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Logo Styles */
+
+.logo {
+    width: 600px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+/* Image Links Styles*/
+
+.container {
+    display: flex;
+    margin-top: 70px;
+    max-width: 1280px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 35px;
+}
+
+.imglink-section {
+    position: relative;
+    display: inline-block;
+    max-width: 400px;
+}
+
+.imglink-section::before {
+    content: " ";
+    display: table;
+}
+
+.imglink-link {
+    display: inline-block;
+    width: 400px;
+    height: 600px;
+}
+
+.imglink-link::before {
+    content: " ";
+    display: table;
+}
+
+.imglink-link::after,
+.imglink-section::after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+.img_link {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.aligncenter {
+    clear:both;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+a.aligncenter {
+    border-bottom-width: 0;
+}
+
+/* Widget Title Styles */
+
+.imglink-title {
+    background-color: #fff;
+    padding: 13px 25px;
+    max-width: 77.5%;
+    position: relative;
+    top: 45%;
+    left: 10.5%;
+    right: 0;
+    opacity: .95;
+    z-index: 2;
+    border: 1px solid #eee;
+    outline: 5px solid #fff;
+    color: #202020;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Prata', serif;
+}
+
+/* Newsletter Subscription Form Styles */
+
+.sub-wrapper {
+    background-color: #ffc861;
+    max-width: 100%;
+    margin-top: 110px;
+    margin-bottom: 70px;
+    border-top: medium double #fff;
+    border-bottom: medium double #fff;
+}
+
+.form-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.mail {
+    background-color: #ffc861;
+    padding: 20px;
+    text-align: center;
+    word-wrap: break-word;
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mail p {
+    margin-right: 20px;
+    max-width: 30%;
+    font-size: 15px;
+}
+
+.join-us {
+    margin: 5px 30px 0 0;
+    font-size: 28px;
+    font-family: 'Prata', serif;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #202020;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+}
+
+.subscribe {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.newsletter {
+    width: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+
+input {
+    background-color: #fff;
+    color: #202020;
+    border: 1px solid #eee;
+    border-radius: 0;
+    overflow: visible;
+}
+
+.newsletter-submit {
+    margin-left: 1%;
+    line-height: 1.5;
+    margin-top: 14px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #dd72a6;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+
+/* Content Styles */
+
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    min-height: 100vh;
+}
+
+main > h1 {
+    margin: 2rem 0 0.5rem;
+}
+
+main > img {
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #ffc861;
+    color: #202020;
+    padding: 2rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+        margin: 0 auto 20px;
+        padding: 5px;
+    }
+
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+    
+    .imglink-section {
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+
+    .imglink-title {
+        margin: 0% 25%;
+    }
+
+    .newsletter, .newsletter-submit {
+        width: 100% !important;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 1145px) {
+    .join-us {
+        width: 100%;
+        border-right: 0;
+        padding-top: 0;
+    }
+
+    .mail p {
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 10px;
+    }
+}
