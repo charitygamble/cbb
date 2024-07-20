@@ -3,4 +3,4 @@ _site/
 package-lock.json
 .DS_Store
 _tmp/
-/_includes/_partials/review_head.html
+src/_includes/_partials/review_head.html
