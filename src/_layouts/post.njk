@@ -17,7 +17,13 @@
         {% include "_partials/_navigation.njk" %}
         <a href="https://charlisbookbox.com"><img class="logo" src="/../../assets/images/cbblol.png" alt="Charli's Book Box"></a>
         <main>
-        {{ content | safe }}
+            <div class="single-post">
+                <h2 class="post-title">{{ title }}</h2>
+                    <span class="post-date">Posted on <span class="readable-date">{{ date | readableDate }}</span> by Charli</span>
+                    <article class="post">
+                    <p>{{ content | safe }}</p>
+                    </article>
+        </div>
         </main>
         {% include "_partials/_footer.njk" %}
     </body>
