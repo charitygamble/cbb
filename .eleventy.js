@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
     const {
         DateTime
-    } = require('Luxon');
+    } = require('luxon');
 
     eleventyConfig.addFilter('htmlDateString', (dateObj) => {
         return DateTime.fromJSDate(dateObj, {
