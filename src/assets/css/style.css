@@ -237,6 +237,59 @@ main > img {
     border-radius: 5px;
 }
 
+/* Post Styles */
+
+.single-post {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.post-title {
+    margin-top: 3.125em;
+    margin-left: 1.4em;
+    line-height: 90%;
+}
+
+.post-date {
+    line-height: 1;
+    margin-top: .3125em;
+    margin-left: 3.4em;
+    margin-bottom: 1.875em;
+    padding-bottom: 1.25em;
+}
+
+.post {
+    max-width: 90%;
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+    background-color: white;
+    padding: .625em;
+}
+
+/* Review Information Styles */
+
+.review__info img {
+    padding-right: .9375em;
+    margin-top: -30px;
+    margin-left: -15px;
+    }
+    
+.review__info {
+        border: medium double white;
+        background-color: #ffc861;
+        margin-bottom: 2.5em;
+        min-height: 15.625em;
+        padding-top: .9375em;
+        width: 60%;
+        margin-left: 10.8125em;
+        margin-top: 1.875em;
+
+    }
+
+.review__description {
+    padding-top: .25em;
+}
+
 /* Footer Styles */
 
 footer {
