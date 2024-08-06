@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.5;
     background-color: white;
     letter-spacing: 1.2px;
@@ -275,7 +275,7 @@ main > img {
 
 /* Review Information Styles */
 
-.review__info img {
+.review-info img {
     padding-right: .9375em;
     margin-top: -30px;
     margin-left: -15px;
@@ -283,7 +283,7 @@ main > img {
     width: 50%;
     }
     
-.review__info {
+.review-info {
         border: medium double white;
         background-color: #ffc861;
         margin-bottom: 2.5em;
@@ -295,7 +295,7 @@ main > img {
 
     }
 
-.review__description {
+.review-description {
     padding-top: .25em;
 }
 
