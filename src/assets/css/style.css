@@ -222,6 +222,13 @@ input {
 
 /* Content Styles */
 
+.archive__header {
+    font-size: 3.75em;
+    text-align: center;
+    margin-bottom: 1.25em;
+    margin-top: .25em;
+}
+
 main {
     max-width: 50rem;
     margin: 0 auto;

@@ -1,0 +1,56 @@
+---
+layout: base.njk
+pagination:
+    data: collections.reviews
+    size: 5
+    reverse: true
+    alias: reviewlist
+---
+
+<h2 class="archive__header">Book Reviews</h2>
+
+<ul>
+{% for review in reviewlist %}
+  <li><a class="post__url" href="{{ review.url | url }}"><h2 tabindex="-1" class="the__title">{{ review.data.title }}</h2></a>
+  <span class="when__posted">Posted on <span class="why__me">{{ review.date | readableDate }}</span> - by Charli</span>
+  <article class="the__post">{{ review.templateContent | safe }}</article></li>
+{% endfor %}
+</ul>
+
+<section class="pagination">
+  {% if pagination.href.previous %}<a class="pagination__link" href="{{ pagination.href.previous }}">&lt;&lt;</a>{% endif %}
+  {%- for pageUrl in pagination.hrefs %}
+  {%- set isCurrentPage = pagination.pageNumber == loop.index0 -%}
+  {%- if isCurrentPage %}<strong>{%- endif %}
+
+  {%- if isCurrentPage 
+  or loop.first 
+  or loop.last
+  or pagination.pageNumber in [loop.index0-1, loop.index0+1] -%}
+
+    {%- if loop.last and pagination.pageNumber < (loop.length - 3) -%}
+      ...
+    {%- endif -%}
+
+    <a class="pagination__link" href="{{ pageUrl }}">{{ loop.index }}</a>
+
+    {%- if loop.first and pagination.pageNumber > 2 -%}
+      ...
+    {%- endif -%}
+
+  {%- endif -%}
+  
+  {%- if isCurrentPage %}</strong>{%- endif %}
+{%- endfor %}
+{% if pagination.href.next %}<a class="pagination__link" href="{{ pagination.href.next }}">&gt;&gt;</a>{% endif %}
+</section>
+
+<script>
+  // Assuming this gets called every time new content loads...
+  function onNewPage() {
+    var heading = document.querySelector('h2');
+    heading.focus();
+    // You can also update the page title :)
+    document.title = heading.textContent;
+  }
+</script>
