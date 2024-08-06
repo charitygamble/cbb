@@ -1,5 +1,5 @@
 ---
-layout: _layouts/post.njk
+layout: post.njk
 title: Blurring the Lines &amp; Extras by Amy Kaybach
 description: Book review for Blurring the Lines &amp; Extras by Amy Kaybach
 date: 2024-07-15
