@@ -6,7 +6,7 @@ date: 2024-07-15
 ---
 
 <section class="review-info">
-            <img loading="lazy" class="movie-poster" src="/images/hi.jpg">
+            <img loading="lazy" class="movie-poster" src="/assets/covers/blurringthelines.jpg">
 
             <strong>Title: Blurring the Lines &amp; Extras</strong><br>
             <strong>Author: Amy Kaybach</strong><br>
