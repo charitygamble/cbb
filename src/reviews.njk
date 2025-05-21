@@ -10,7 +10,7 @@ pagination:
 <h2 class="archive__header">Book Reviews</h2>
 
 <ul>
-{% for review in reviewlist %}
+{% for review in reviews %}
   <li><a class="post__url" href="{{ review.url | url }}"><h2 tabindex="-1" class="the__title">{{ review.data.title }}</h2></a>
   <span class="when__posted">Posted on <span class="why__me">{{ review.date | readableDate }}</span> - by Charli</span>
   <article class="the__post">{{ review.templateContent | safe }}</article></li>

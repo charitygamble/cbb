@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Home
+---
+
+<div class="shelf-container">
+    <div class="shelf-grid">
+        {% for review in collections.reviews %}
+            <div class="shelf-card">
+                <div class="shelf-header">
+                    <i class="fa-regular fa-folder-open folder-icon"></i>
+                    <div class="small-icons">
+                        <a href={{review.data.reviewURL}} target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <h3>{{review.data.title}}</h3>
+                <p>{{review.data.description}}</p>
+                <a href="{{review.url}}" class="cta-btn">Read more</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+                    
+

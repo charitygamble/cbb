@@ -26,7 +26,9 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy('src/assets')
-    eleventyConfig.addPassthroughCopy('admin')
+      eleventyConfig.addCollection('reviews', (collection) => {
+        return collection.getFilteredByGlob('src/reviews/*.md');
+    });
     return {
         dir: {
             input: 'src',
