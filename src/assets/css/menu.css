@@ -2,14 +2,12 @@
 
 .topnav {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 4.5rem;
+    align-items: left;
+    justify-content: flex-start;
+    height: 4.5 rem;
     width: 100%;
     background-color: #fff;
-    border-top: 10px solid #ffc861;
-    border-bottom: 2px solid #eee;
-    font-size: 11px;
+    font-size: 16px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -18,7 +16,6 @@
 
 .nav-links a {
     display: block;
-    padding: 1rem 2rem;
     color: #202020;
 }
 
@@ -36,8 +33,7 @@
 
 .menu {
     display: flex;
-    gap: 2em;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .menu li:hover {
