@@ -12,11 +12,12 @@
         <link rel="stylesheet" href="/assets/css/reset.css">
         <link rel="stylesheet" href="/assets/css/style.css">
         <link rel="stylesheet" href="/assets/css/menu.css">
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <link rel="stylesheet" href="/assets/css/header.css">
+        <script src="https://kit.fontawesome.com/76b5fc56b4.js" crossorigin="anonymous"></script>
     </head>
     <body>
         {% include "_partials/_navigation.njk" %}
-        <a href="https://charlisbookbox.com"><img class="logo" src="/../../assets/images/cbblol.png" alt="Charli's Book Box"></a>
+        {% include "_partials/_header.njk" %}
         {% include "_partials/_imglinks.njk" %}
         {% include "_partials/_subscribe.njk" %}
         <main>

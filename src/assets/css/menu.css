@@ -1,9 +1,8 @@
 /* Navigation Menu Styles */
 
 .topnav {
-    display: flex;
-    align-items: left;
-    justify-content: flex-start;
+    position: sticky;
+    top: 10px;
     height: 4.5 rem;
     width: 100%;
     background-color: #fff;
@@ -12,11 +11,20 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-left: 200px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    float: left;
 }
 
 .nav-links a {
     display: block;
-    color: #202020;
+    color: #f86f92;
 }
 
 .nav-links a:active {
@@ -24,7 +32,7 @@
 }
 
 .nav-links a:hover {
-    color: #0281ae;
+    color: #ff8fab;
 }
 
 .nav-links a:visited {
@@ -88,4 +96,23 @@ input[type=checkbox] {
         display: block;
         font-size: 13px;
     }
+}
+
+/* Social Media Icons*/
+
+.socialnav {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 200px;
+}
+
+.social-items {
+    padding-right: 15px;
+    color: #ff8fab;
+}
+
+.social-items a {
+    color: #f86f92;
 }

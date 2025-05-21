@@ -1,0 +1,17 @@
+header {
+    height: 200px;
+    position: relative;
+    background-image: url('/assets/images/cloudsbg.png');
+    background-color: #f86f92;
+    color: #202020;
+    text-align:center;
+    top: 50px;
+}
+
+/* Logo Styles */
+
+.logo {
+    width: 600px;
+    height: 150px;
+    clear: both;
+}
