@@ -1,19 +1,48 @@
 ---
+layout: post.njk
 title: "1922 by Stephen King"
 date: 2025-01-03
+author: Charli
 categories: 
   - "reviews"
 tags:
   - "reviews"
 coverImage: "/assets/covers/1922-by-stephen-king.jpg"
+description: If you know me, you probably know that I am a fan of Stephen King’s work. Honestly, about the only book of his that I have never quite been able to get into is Holly, and I think that is because it’s more or less part of a series that...
 ---
 
-If you know me, you probably know that I am a fan of Stephen King's work. Honestly, about the only book of his that I have never quite been able to get into is **Holly**, and I think that is because it's more or less part of a series that I haven't actually read. But this review isn't about that - it is about a novella/short story called **1922**.
+<div class="review-info">
+<img src="/assets/covers/1922-by-stephen-king.jpg" align="left" alt="1922 Book Cover">
+<strong>Title:</strong> 1922<br>
+<strong>Author:</strong> Stephen King<br>
+<strong>Publisher:</strong> Hodder &amp; Stoughton<br>
+<strong>Publication Date:</strong> September 9, 2021<br>
+<strong>Genre(s):</strong> Horror<br>
+<strong>Format:</strong> eBook<br>
+<strong>Source:</strong> Public Library<br>
+<strong>Rating:</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
-In **1922**, we find a man named Wilfred James who is telling a story that might be unbelievable to some, but perhaps not for those of us familiar with Mr. King's writing. We meet a small host of characters - Arlette James (Wilfred's wife), Henry James (Wilfred's son), Shannon Cotterie (love of Henry's life), and a few others. We only really deal with Wilfred and Henry enough to form an opinion of them - to me, neither character is particularly engaging or noteworthy - but I often find that Stephen King's characters aren't the main attraction of his stories\[mfn\]At least not for me.\[/mfn\].
+<div class="review-description">
+<p><strong>The chilling novella featured in Stephen King's bestselling collection Full Dark, No Stars, 1922 - about a man who succumbs to the violence within - is now available as a stand-alone publication.</strong></p>
 
-The story doesn't take long to read\[mfn\]According to the Libby app, I spend 2 hours and 32 minutes reading it total.\[/mfn\], and is an engaging tale of confession, loss, grief, and madness. Obviously I'm not going to tell you what happens, but suffice it to say that the plot moves quickly enough to make reading the book quick and the plot is interesting enough to keep you wanting to read more.
+<p>I believe there is a man inside every man, a stranger</p>
 
-I watched the movie on Netflix a few years ago, but oddly I don't remember much about it. It might be time to revisit that now that I've read the novella.
+<p>So writes Wilfred James in his confession. It's 1922. Wilfred owns eighty acres of farmland in Nebraska that have been in the family for generations. His wife, Arlette, owns an adjoining one hundred acres.</p>
 
-I gave it 4 stars because while I didn't connect with any of the characters, it had a fast-paced, interesting plot.
+<p>But if Arlette carries out her threat to sell her land to a pig butcher, Wilfred will be forced to sell too. Worse, he'll have to move to the city. But he has a daring plan. It may work if he can persuade his son.</p>
+
+<p>A powerful tale of betrayal, murder, madness and rats, 1922 is a breathtaking exploration into the dark side of human nature from the great American storyteller Stephen King. It was adapted into a film from Netflix.</p>
+</div>
+</div>
+
+<div class="the_review">
+<p>If you know me, you probably know that I am a fan of Stephen King's work. Honestly, about the only book of his that I have never quite been able to get into is <i>Holly</i>, and I think that is because it's more or less part of a series that I haven't actually read. But this review isn't about that - it is about a novella/short story called <i>1922</i>.</p>
+
+<p>In <i>1922</i>, we find a man named Wilfred James who is telling a story that might be unbelievable to some, but perhaps not for those of us familiar with Mr. King's writing. We meet a small host of characters - Arlette James (Wilfred's wife), Henry James (Wilfred's son), Shannon Cotterie (love of Henry's life), and a few others. We only really deal with Wilfred and Henry enough to form an opinion of them - to me, neither character is particularly engaging or noteworthy - but I often find that Stephen King's characters aren't the main attraction of his stories.</p>
+
+<p>The story doesn't take long to read, and is an engaging tale of confession, loss, grief, and madness. Obviously I'm not going to tell you what happens, but suffice it to say that the plot moves quickly enough to make reading the book quick and the plot is interesting enough to keep you wanting to read more.</p>
+
+<p>I watched the movie on Netflix a few years ago, but oddly I don't remember much about it. It might be time to revisit that now that I've read the novella.</p>
+
+<p>I gave it 4 stars because while I didn't connect with any of the characters, it had a fast-paced, interesting plot.</p>
+</div>
