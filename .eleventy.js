@@ -1,19 +1,8 @@
+const pluginDate = require('eleventy-plugin-date');
+
 module.exports = function(eleventyConfig) {
-    const {
-        DateTime
-    } = require('luxon');
 
-    eleventyConfig.addFilter('htmlDateString', (dateObj) => {
-        return DateTime.fromJSDate(dateObj, {
-            zone: 'utc'
-        }).toFormat('yy-MM-dd');
-    });
-
-    eleventyConfig.addFilter('readableDate', dateObj => {
-        return DateTime.fromJSDate(dateObj, {
-            zone: 'utc'
-        }).toFormat('yy-MM-dd');
-    });
+    eleventyConfig.addPlugin(pluginDate);
 
     eleventyConfig.addFilter('head', (array, n) => {
         if(!Array.isArray(array) || array.length === 0) {

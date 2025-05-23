@@ -1,0 +1,53 @@
+---
+layout: post.njk
+title: "All Hope of Becoming Human by Lonnie Busch"
+date: 2024-06-08
+author: Charli
+categories: 
+  - "reviews"
+tags: 
+  - "reviews"
+coverImage: "/assets/covers/allhopeofhuman.jpeg"
+description: When I saw All Hope of Becoming Human by Lonnie Busch in the Edelweiss+ “to download” category, I thought it sounded interesting, so I decided to give it a try. I’m glad I did! 
+---
+<div class="review-info">
+<img src="/assets/covers/allhopeofhuman.jpeg" align="left" alt="All Hope of Becoming Human Book Cover">
+<strong>Title:</strong> All Hope of Becoming Human<br>
+<strong>Author:</strong> Lonnie Busch<br>
+<strong>Publisher:</strong> UBiQ Press<br>
+<strong>Publication Date:</strong> May 7, 2023<br>
+<strong>Genre(s):</strong> Horror<br>
+<strong>Format:</strong> eARC<br>
+<strong>Source:</strong> Edelweiss+<br>
+<strong>Rating:</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+
+<div class="review-description">
+<p><strong>"This absorbing, realistic near-future tale brims with unrelenting mystery and tension."</strong> -Kirkus Reviews</p>
+
+<p>The world is about to change in unimaginable ways...</p>
+
+<p>Earthquakes rock the planet, revealing massive metallic objects and vast subterranean graveyards. One such location is in the Arizona desert. Scientists believe this incredible discovery may hold answers to the origins of man, but when the site is suddenly shut down due to seismic activity, one researcher knows she must return. Assistant archaeologist Rebecca Duccati sneaks into the compound alone, and will have to dig deep to find clues in these strange underground caves and tunnels. The work is dangerous and frightening, but she feels a connection to this bizarre phenomenon that even she isn't fully aware of yet.</p>
+
+<p>FBI Special Agent Demzey knows nothing about archaeology; his specialty- anomalous crimes, the fringe edge of the aberrant and the unknown. Demzey is investigating a recent rash of vicious and brutal murders, the clues surrounding the killings both disturbing and inexplicable. He and his assistant Connie Wegman catch a break when they discover remains of two monstrous creatures unknown to science, believed to be a race of aliens responsible for attacks on humans across the globe.</p>
+
+<p>With the death toll ticking ever higher, scientists and intelligence agencies on every continent search for the source of these vicious creatures, until the combined efforts of Duccati and Demzey begin to unravel the mystery, though what they uncover could spell the end for the human race.</p>
+
+<p><strong>For fans of Douglas E. Richards and Jeremy Robinson.</strong></p>
+</div>
+</div>
+
+<div class="the_review">
+<p>When I saw <i>All Hope of Becoming</i> Human by Lonnie Busch in the Edelweiss+ "to download" category, I thought it sounded interesting, so I decided to give it a try. I'm glad I did!</p>
+
+<p>One of Mr. Busch's influences is Stephen King and you can definitely see that in this novel. He expertly crafted the kind of allegory that Mr. King uses - where the people are the problem, not the fantastical monsters that plague them. Not only that, but he blended science fiction and horror in a way that made them seamless, something that I've seen many other authors try and fail to do.</p>
+
+<p>Mr. Busch has created a cast of characters in <i>All Hope of Becoming Human</i> that are not only likeable, but ones that you will genuinely care about. You'll grieve their losses, celebrate their successes, and sit in shock at what they endure.</p>
+
+<p>Rebecca is an enigma for the majority of the book and it works. So many times I wondered what was going on with her - why she was acting the way she was. When it all came together toward the end of the novel, it not only made sense, but it made me glad it had happened that way.</p>
+
+<p>I also enjoyed Demzey's character - he was one tough cookie who also showed emotion. That isn't something you often get from male authors - for some reason, the male characters just aren't that emotionally charged. I appreciated that with Demzey.</p>
+
+<p>The plot to this one is obvious and not at the same time. You can see the tendrils of the plot but you're often left wondering where they are going, which is not a bad thing. You'll find points that you know are integral to the plot of <i>All Hope of Becoming Human</i>, but yet they seem to lead nowhere before being explained later. When they are explained, you'll see why they weren't explained to begin with - because it wouldn't have made sense then.</p>
+
+<p>The ending made me a bit sad, a bit glad, and actually made me wish for a sequel - because I'd love to see what happens next after this book left off... hint, hint, Mr. Busch! All in all, this was a solid 4.5 star read and I highly recommend it to anyone who likes horror and science fiction mixed together!</p>
+</div>

@@ -6,3 +6,4 @@ package-lock.json
 _tmp/
 src/_includes/_partials/review_head.html
 nope.html
+src/assets/images/colors.png

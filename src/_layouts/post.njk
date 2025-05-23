@@ -10,12 +10,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Prata:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/reset.css">
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <link rel="stylesheet" href="/assets/css/menu.css">
+        <link rel="stylesheet" href="/assets/css/global.css">
+        <script src="https://kit.fontawesome.com/76b5fc56b4.js" crossorigin="anonymous"></script>
     </head>
     <body>
         {% include "_partials/_navigation.njk" %}
-        <a href="https://charlisbookbox.com"><img class="logo" src="/../../assets/images/cbblol.png" alt="Charli's Book Box"></a>
+        {% include "_partials/_header.njk" %}
         <main>
             <div class="single-post">
                 <h2 class="post-title">{{ title }}</h2>
@@ -24,6 +24,38 @@
                     <p>{{ content | safe }}</p>
                     </article>
         </div>
+        <aside class="sidebar">
+            <h2 class="widget-title">Hi There!</h2>
+            <div class="bio-widget"><img src="/assets/images/charli.jpg" alt="Charli's Photo"><br><br>
+            <p>I'm Charli. I'm a student, bookworm, metalhead, horror lover, Renner Bunny, and web developer.</p>
+            </div>
+            <h2 class="widget-title">Be Social</h2>
+            <div class="social-icons">
+                <a href="https://www.x.com/charlisbookbox" aria-label="Go to my X account" target="_blank"><i class="fa-brands fa-square-x-twitter fa-2xl"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="http://www.facebook.com/charlisbookbox" aria-label="Go to my Facebook page" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="http://instagram.com/charlisbookbox" aria-label="Go to my Instagram account" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="http://www.pinterest.com/charlisbookbox" aria-label="Go to my Pinterest account" target="_blank"><i class="fa-brands fa-square-pinterest fa-2xl"></i></a>&nbsp;&nbsp;&nbsp;
+                <a href="https://youtube.com/@charlisbookbox" aria-label="Go to my YouTube account" target="_blank"><i class="fa-brands fa-square-youtube fa-2xl"></i></a>
+            </div>
+            <br><br>
+                <div class="affiliate_banner">
+<a href="//www.dmca.com/Protection/Status.aspx?ID=890903ba-753a-417c-a81c-722695bab07b" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca-badge-w200-5x1-07.png?ID=890903ba-753a-417c-a81c-722695bab07b"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script></div>
+<br><br>
+<h2 class="widget-title">My Friends</h2>
+<div class="blogroll">
+    <ul>
+        <li><a href="https://forbookssake.home.blog/" aria-label="Go to For Books' Sake" target="_blank" rel="noopener noreferrer">_ForBooksSake</a></li>
+        <li><a href="https://amykaybach.com/" aria-label="go to amy kaybach" target="_blank" rel="noopener noreferrer">amy kaybach</a></li>
+        <li><a href="https://drkwaitingroom.com/" aria-label="Go to Dr. K's Waiting Room" target="_blank" rel="noopener noreferrer">Dr. K's Waiting Room</a></li>
+        <li><a href="http://ebookaddicts.net/" aria-label="Go to eBook Addicts" target="_blank" rel="noopener noreferrer">eBook Addicts</a></li>
+        <li><a href="https://fictionallysam.com/" aria-label="Go to Fictionally Sam" target="_blank" rel="noopener noreferrer">Fictionally Sam</a></li>
+        <li><a href="https://paperfury.com/" aria-label="Go to Paper Fury" target="_blank" rel="noopener noreferrer">Paper Fury</a></li>
+        <li><a href="https://wittyandsarcasticbookclub.home.blog/" aria-label="Go to Witty and Sarcastic Book Club" target="_blank" rel="noopener noreferrer">Witty and Sarcastic Book Club</a></li>
+            </ul>
+        </div>
+        <br><br>
+ <div class="affiliate_banner"><a target="_blank" href="https://shareasale.com/r.cfm?b=753093&amp;u=850899&amp;m=13375&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/13375/240x400.gif" border="0" alt="eCampus.com" /></a></div>
+        </aside>
         </main>
         {% include "_partials/_footer.njk" %}
     </body>

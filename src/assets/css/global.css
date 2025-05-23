@@ -1,3 +1,15 @@
+:root {
+    --indigo: #0a2bc9;
+    --sky: #0086ff;
+    --lightsky: rgba(0, 134, 255, 0.5);
+    --turquoise: #00c5f2;
+    --mint: #5afbd9;
+    --white: #ffffff;
+    --darkgray: #202020;
+    --black: #000000;
+    --lightgray: #e5e1e6;
+}
+
 /* Global Styles */
 
 *, *::before, *::after {
@@ -13,11 +25,17 @@ html {
 /* Body Styles */
 
 body {
+    /* for older browsers */
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Poppins', Arial, Helvetica, Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    background-color: white;
+    background-color: var(--white);
     letter-spacing: 1.2px;
+    margin-top: 20px;
 }
 
 p {
@@ -25,25 +43,34 @@ p {
     padding: 0;
 }
 
+strong {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+
 /* Link Styles */
 
 a {
-    color: #f86f92;
+    color: var(--sky);
     text-decoration: none;
 }
 
 a:hover {
-    color: #ff8fab;
+    color: var(--mint);
     text-decoration: underline;
 }
 
 a:active {
-    color: #dd72a6;
+    color: var(--turquoise);
     text-decoration: underline;
 }
 
 a:visited {
-    color: #ff8fab;
+    color: var(--turquoise);
     text-decoration: none;
 }
 
@@ -53,4 +80,305 @@ img {
     max-width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+/* Navigation Menu Styles */
+
+.topnav {
+    height: 4.5 rem;
+    width: 100%;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 200px;
+    /*z-index: 1000;*/
+}
+
+.nav-links {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    float: left;
+}
+
+.nav-links a {
+    display: block;
+    color: var(--sky);
+}
+
+.nav-links a:active {
+    color: var(--turquoise);
+}
+
+.nav-links a:hover {
+    color: var(--mint);
+}
+
+.nav-links a:visited {
+    color: var(--turquoise);
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+}
+
+.menu li:hover {
+    background-color: var(--white);
+    border-radius: .3125em;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: .3125em .875em;
+}
+
+/* Responsive Menu Start */
+
+/* Checkbox Hack */
+input[type=checkbox] {
+    display: none;
+}
+
+/* Hamburger Styles */
+
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    user-select: none;
+}
+
+/* Navigation Media Queries */
+@media (max-width: 800px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: var(--white);
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color: var(--white);
+        color: var(--darkgray);
+        transition: 0.3s ease;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 13px;
+    }
+}
+
+/* Social Media Icons*/
+
+.socialnav {
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+    float: right;
+    padding-right: 200px;
+}
+
+.social-items {
+    padding-right: 15px;
+    color: var(--sky);
+}
+
+.social-items a {
+    color: var(--sky);
+}
+
+header {
+    height: 220px;
+    line-height: 220px;
+    position: relative;
+    background-image: url('/assets/images/cloudsbg.png');
+    background-color: var(--sky);
+    color: #202020;
+    text-align:center;
+    top: 20px;
+}
+
+/* Logo Styles */
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 600px;
+    height: 150px;
+    clear: both;
+}
+
+/* Shelf Styles */
+
+.shelf-container {
+    padding: 2rem 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.shelf-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .shelf-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.shelf-card {
+    padding: 20px;
+}
+
+.shelf-card p,
+.shelf-card h3 {
+    margin-bottom: 10px;
+}
+
+.shelf-card .shelf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.shelf-image {
+    height: 192px;
+    width: 128px;
+    display: inline-block;
+}
+
+.shelf-card .shelf h3 {
+    font-family: 'Poppins', Helvetica, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.shelf-card .shelf p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--darkgray);
+}
+
+.metadata {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 12px;
+    border-top: 20px solid var(--sky);
+    background-color: var(--lightgray);
+    text-align:center;
+    padding-bottom: 5px;
+}
+
+/* Review Information Styles */
+
+.single-post {
+    margin-top: 50px;
+    margin-left: 6.8125em;
+    float: left;
+    width: 60%;
+}
+
+.single-post h2 {
+    font-size: 40px;
+    color: var(--indigo);
+}
+
+.review-info img {
+    padding-right: .9375em;
+    margin-top: -30px;
+    margin-left: -15px;
+    height: 192px;
+    width: 128px;
+    }
+    
+.review-info {
+        border: medium double var(--indigo);
+        background-color: var(--lightsky);
+        margin-bottom: 2.5em;
+        min-height: 15.625em;
+        padding-top: .9375em;
+        margin-left: .8125em;
+        margin-top: 1.875em;
+
+    }
+
+.review-description {
+    padding-top: .25em;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top: 10px;
+}
+
+.the_review {
+    margin-left: .8125em;
+}
+
+/* Sidebar Styles */
+
+.sidebar {
+    margin-top: 50px;
+    float: right;
+    width: 25%;
+    margin-right: 40px;
+}
+
+.widget-title {
+    font-size: 30px;
+    text-align: center;
+    color: var(--sky);
+    margin-bottom: 10px;
+}
+
+.bio-widget img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+}
+
+.bio-widget {
+    text-align: center;
+}
+
+.bio-widget p {
+    margin-top: -30px;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    color: var(--indigo);
+}
+
+.blogroll {
+    text-align: center;
+}
+
+.blogroll ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+footer {
+    clear: both;
+    background-color: var(--sky);
+    color: var(--darkgray);
+    padding: 2rem;
+    margin-top: auto;
 }

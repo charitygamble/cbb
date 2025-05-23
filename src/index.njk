@@ -1,21 +1,24 @@
 ---
 layout: base.njk
 title: Home
+pagination:
+    data: collections.reviews
+    size: 12
+    reverse: true
+    alias: reviews
 ---
 
 <div class="shelf-container">
     <div class="shelf-grid">
-        {% for review in collections.reviews %}
+        {% for review in collections.reviews | reverse %}
             <div class="shelf-card">
                 <div class="shelf-header">
-                    <i class="fa-regular fa-folder-open folder-icon"></i>
-                    <div class="small-icons">
-                        <a href={{review.data.reviewURL}} target="_blank"><i class="fa-solid fa-link"></i></a>
-                    </div>
+                    <img src="{{review.data.coverImage}}" class="shelf-image">
                 </div>
-                <h3>{{review.data.title}}</h3>
+                <h3><strong><a href="{{review.url}}">{{review.data.title}}</a></strong></h3>
                 <p>{{review.data.description}}</p>
                 <a href="{{review.url}}" class="cta-btn">Read more</a>
+                  <p class="metadata">Posted on: {{review.data.date | readableDate }} by {{review.data.author}}</p>
             </div>
         {% endfor %}
     </div>
