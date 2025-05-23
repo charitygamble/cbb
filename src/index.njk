@@ -2,26 +2,62 @@
 layout: base.njk
 title: Home
 pagination:
-    data: collections.reviews
+    data: collections.posts
     size: 12
     reverse: true
-    alias: reviews
+    alias: posts
 ---
 
 <div class="shelf-container">
     <div class="shelf-grid">
-        {% for review in collections.reviews | reverse %}
+        {% for post in collections.posts | reverse %}
             <div class="shelf-card">
                 <div class="shelf-header">
-                    <img src="{{review.data.coverImage}}" class="shelf-image">
+                    <img src="{{post.data.coverImage}}" class="shelf-image">
                 </div>
-                <h3><strong><a href="{{review.url}}">{{review.data.title}}</a></strong></h3>
-                <p>{{review.data.description}}</p>
-                <a href="{{review.url}}" class="cta-btn">Read more</a>
-                  <p class="metadata">Posted on: {{review.data.date | readableDate }} by {{review.data.author}}</p>
+                <h3><strong><a href="{{post.url}}">{{post.data.title}}</a></strong></h3>
+                <p>{{post.data.description}}</p>
+                <a href="{{post.url}}" class="cta-btn">Read more</a>
+                  <p class="metadata">Posted on: {{post.data.date | readableDate }} by {{post.data.author}}</p>
             </div>
         {% endfor %}
     </div>
 </div>
-                    
+<section class="pagination">
+  {% if pagination.href.previous %}<a class="pagination__link" href="{{ pagination.href.previous }}">&lt;&lt;</a>{% endif %}
+  {%- for pageUrl in pagination.hrefs %}
+  {%- set isCurrentPage = pagination.pageNumber == loop.index0 -%}
+  {%- if isCurrentPage %}<strong>{%- endif %}
+
+  {%- if isCurrentPage 
+  or loop.first 
+  or loop.last
+  or pagination.pageNumber in [loop.index0-1, loop.index0+1] -%}
+
+    {%- if loop.last and pagination.pageNumber < (loop.length - 3) -%}
+      ...
+    {%- endif -%}
+
+    <a class="pagination__link" href="{{ pageUrl }}">{{ loop.index }}</a>
+
+    {%- if loop.first and pagination.pageNumber > 2 -%}
+      ...
+    {%- endif -%}
+
+  {%- endif -%}
+  
+  {%- if isCurrentPage %}</strong>{%- endif %}
+{%- endfor %}
+{% if pagination.href.next %}<a class="pagination__link" href="{{ pagination.href.next }}">&gt;&gt;</a>{% endif %}
+</section>
+
+<script>
+  // Assuming this gets called every time new content loads...
+  function onNewPage() {
+    var heading = document.querySelector('h2');
+    heading.focus();
+    // You can also update the page title :)
+    document.title = heading.textContent;
+  }
+</script> 
 

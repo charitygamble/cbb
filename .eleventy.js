@@ -15,8 +15,8 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy('src/assets')
-      eleventyConfig.addCollection('reviews', (collection) => {
-        return collection.getFilteredByGlob('src/reviews/*.md');
+      eleventyConfig.addCollection('posts', (collection) => {
+        return collection.getFilteredByGlob('src/posts/*.njk');
     });
     return {
         dir: {
