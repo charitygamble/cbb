@@ -326,6 +326,7 @@ header {
 
 .the_review {
     margin-left: .8125em;
+    margin-botton: 20px;
 }
 
 /* Sidebar Styles */
@@ -335,6 +336,7 @@ header {
     float: right;
     width: 25%;
     margin-right: 40px;
+    margin-bottom: 20px;
 }
 
 .widget-title {
