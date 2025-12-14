@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Prata:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/reset.css">
         <link rel="stylesheet" href="/assets/css/global.css">
         <script src="https://kit.fontawesome.com/76b5fc56b4.js" crossorigin="anonymous"></script>
@@ -16,7 +17,7 @@
     <body>
         {% include "_partials/_navigation.njk" %}
         {% include "_partials/_header.njk" %}
-        <main>
+        <main class="post-page">
             <div class="single-post">
                 <h2 class="post-title">{{ title }}</h2>
                     <span class="post-date">Posted on <span class="readable-date">{{ date | readableDate }}</span> by Charli</span>

@@ -15,9 +15,19 @@ module.exports = function(eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy('src/assets')
-      eleventyConfig.addCollection('posts', (collection) => {
-        return collection.getFilteredByGlob('src/posts/*.njk');
+    
+    eleventyConfig.addCollection('posts', function(collectionsApi) {
+        let allItems = collectionsApi.getAll();
+        let posts = allItems.filter(item =>
+            item.data.tags && item.data.tags.includes('posts')
+        );
+        posts.sort((a, b) => {
+            return b.date.getTime() - a.date.getTime();
+        });
+        return posts;
     });
+
+
     return {
         dir: {
             input: 'src',
@@ -27,5 +37,4 @@ module.exports = function(eleventyConfig) {
             includes: '_includes'
         }
     }
-
-}
+};

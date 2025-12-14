@@ -2,20 +2,28 @@
 layout: base.njk
 pagination:
     data: collections.reviews
-    size: 5
+    size: 12
     reverse: true
     alias: reviewlist
 ---
 
 <h2 class="archive__header">Book Reviews</h2>
 
-<ul>
-{% for review in reviews %}
-  <li><a class="post__url" href="{{ review.url | url }}"><h2 tabindex="-1" class="the__title">{{ review.data.title }}</h2></a>
-  <span class="when__posted">Posted on <span class="why__me">{{ review.date | readableDate }}</span> - by Charli</span>
-  <article class="the__post">{{ review.templateContent | safe }}</article></li>
-{% endfor %}
-</ul>
+<div class="shelf-container">
+    <div class="shelf-grid">
+        {% for post in reviewlist %}
+            <div class="shelf-card">
+                <div class="shelf-header">
+                    <img src="{{post.data.coverImage}}" class="shelf-image">
+                </div>
+                <h3><strong><a href="{{post.url}}">{{post.data.title}}</a></strong></h3>
+                <p>{{post.data.description}}</p>
+                <a href="{{post.url}}" class="cta-btn">Read more</a>
+                  <p class="metadata">Posted on: {{post.data.date | readableDate }} by {{post.data.author}}</p>
+            </div>
+        {% endfor %}
+    </div>
+</div>
 
 <section class="pagination">
   {% if pagination.href.previous %}<a class="pagination__link" href="{{ pagination.href.previous }}">&lt;&lt;</a>{% endif %}
@@ -28,13 +36,13 @@ pagination:
   or loop.last
   or pagination.pageNumber in [loop.index0-1, loop.index0+1] -%}
 
-    {%- if loop.last and pagination.pageNumber < (loop.length - 3) -%}
+    {%- if loop.last and pagination.pageNumber < (loop.length - 12) -%}
       ...
     {%- endif -%}
 
     <a class="pagination__link" href="{{ pageUrl }}">{{ loop.index }}</a>
 
-    {%- if loop.first and pagination.pageNumber > 2 -%}
+    {%- if loop.first and pagination.pageNumber > 12 -%}
       ...
     {%- endif -%}
 

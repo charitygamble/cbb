@@ -210,6 +210,13 @@ header {
     top: 20px;
 }
 
+header h1 {
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+}
+
 /* Logo Styles */
 
 .logo {
@@ -218,6 +225,13 @@ header {
     width: 600px;
     height: 150px;
     clear: both;
+}
+
+/* Main Styles */
+
+.post-page {
+    margin: auto;
+    max-width: 90%;
 }
 
 /* Shelf Styles */
@@ -284,6 +298,24 @@ header {
     padding-bottom: 5px;
 }
 
+/* Pagination Styles */
+
+.pagination {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: var(--indigo);
+}
+
+.pagination__link {
+    font-size: 1em;
+}
+
 /* Review Information Styles */
 
 .single-post {
@@ -296,6 +328,10 @@ header {
 .single-post h2 {
     font-size: 40px;
     color: var(--indigo);
+}
+
+.post-image {
+    padding-right: 10px;
 }
 
 .arc-credit {
@@ -313,8 +349,8 @@ header {
     padding-right: .9375em;
     margin-top: -30px;
     margin-left: -15px;
-    height: 192px;
-    width: 128px;
+    height: auto;
+    max-width: 35%;
     }
     
 .review-info {
@@ -337,7 +373,7 @@ header {
 
 .the_review {
     margin-left: .8125em;
-    margin-botton: 20px;
+    margin-bottom: 20px;
 }
 
 /* Sidebar Styles */

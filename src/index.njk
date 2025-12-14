@@ -4,13 +4,12 @@ title: Home
 pagination:
     data: collections.posts
     size: 12
-    reverse: true
     alias: posts
 ---
 
 <div class="shelf-container">
     <div class="shelf-grid">
-        {% for post in collections.posts | reverse %}
+        {% for post in posts %}
             <div class="shelf-card">
                 <div class="shelf-header">
                     <img src="{{post.data.coverImage}}" class="shelf-image">
@@ -34,13 +33,13 @@ pagination:
   or loop.last
   or pagination.pageNumber in [loop.index0-1, loop.index0+1] -%}
 
-    {%- if loop.last and pagination.pageNumber < (loop.length - 3) -%}
+    {%- if loop.last and pagination.pageNumber < (loop.length - 12) -%}
       ...
     {%- endif -%}
 
     <a class="pagination__link" href="{{ pageUrl }}">{{ loop.index }}</a>
 
-    {%- if loop.first and pagination.pageNumber > 2 -%}
+    {%- if loop.first and pagination.pageNumber > 12 -%}
       ...
     {%- endif -%}
 

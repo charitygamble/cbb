@@ -1,0 +1,32 @@
+---
+layout: post.njk
+title: "POST_TITLE_HERE"
+date: 2025-08-05
+tags: 
+  - "posts"
+  - "reviews"
+coverImage: "/assets/covers/BOOK_COVER_HERE.jpg"
+description: I haven’t been reading much lately, I think being a college student has gotten me into a slump – I read so much for school, I don’t want to read anything else when I’m done with my homework!
+---
+
+{% include "_partials/SOURCE_HERE.njk" %}
+
+<div class="review-info">
+<img src="/assets/covers/BOOK_COVER_HERE.jpg" align="left" alt=" Cover">
+<strong>Title:</strong> <br>
+<strong>Author:</strong> <br>
+<strong>Publisher:</strong> <br>
+<strong>Publication Date:</strong> <br>
+<strong>Genre(s):</strong> <br>
+<strong>Format:</strong> <br>
+<strong>Source:</strong> <br>
+<strong>Rating:</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+
+<div class="review-description">
+<p></p>
+</div>
+</div>
+
+<div class="the_review">
+<p></p>
+</div>
