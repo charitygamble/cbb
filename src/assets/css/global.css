@@ -111,6 +111,7 @@ img {
     align-items: left;
     justify-content: flex-start;
     float: left;
+    width: 70%;
 }
 
 .nav-links a {
@@ -204,6 +205,7 @@ input[type=checkbox] {
     align-items: right;
     justify-content: flex-end;
     float: right;
+    width: 25%;
     padding-right: 200px;
 }
 
