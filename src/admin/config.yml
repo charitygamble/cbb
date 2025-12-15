@@ -17,6 +17,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Date", name: "date", widget: "date", default: ""}
+      - {label: "Date", name: "date", widget: "datetime", time_format: false}
       - {label: "Tags", name: "tags", width: "list", field: { label: "Tag", name: "tag", widget: "string"} }
       - {label: "Post Body", name: "body", widget: "markdown"}
