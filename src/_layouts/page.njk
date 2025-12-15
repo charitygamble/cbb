@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Cozy Books 'N Games - {{ title }}</title>
+        <title>The Spooky Bookshelf - {{ title }}</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Prata:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/reset.css">
         <link rel="stylesheet" href="/assets/css/global.css">
         <script src="https://kit.fontawesome.com/76b5fc56b4.js" crossorigin="anonymous"></script>
@@ -17,6 +18,7 @@
     <body>
         {% include "_partials/_navigation.njk" %}
         {% include "_partials/_header.njk" %}
+        <div class="wrapper">
         <main class="post-page">
             <div class="single-post">
                 <h2 class="post-title">{{ title }}</h2>
@@ -57,6 +59,7 @@
  <div class="affiliate_banner"><a target="_blank" href="https://shareasale.com/r.cfm?b=753093&amp;u=850899&amp;m=13375&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/13375/240x400.gif" border="0" alt="eCampus.com" /></a></div>
         </aside>
         </main>
+        </div>
         {% include "_partials/_footer.njk" %}
     </body>
 </html>
