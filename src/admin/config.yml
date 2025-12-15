@@ -2,6 +2,7 @@ backend:
   name: github
   repo: charitygamble/cbb # e.g., 'myuser/my-new-site'
   branch: main # or master
+  base_url: https://cozybooksngames.netlify.app/.netlify/functions/auth
 media_folder: "src/assets/covers/" # Folder where media files are stored
 public_folder: "/assets/covers/" # Path to files from the site root
 collections:
