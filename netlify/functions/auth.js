@@ -1,8 +1,3 @@
-// This is a simplified handler that uses the 'got' library (or fetch) 
-// to make the token exchange request. We assume Netlify provides a basic fetch API.
-
-const fetch = require('node-fetch');
-
 // The function is exposed at /netlify/functions/auth
 exports.handler = async (event, context) => {
     // 1. Get the code from the request query string
