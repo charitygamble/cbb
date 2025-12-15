@@ -60,6 +60,10 @@ h3 {
     color: var(--sky);
 }
 
+ul {
+    padding-left: 10px;
+}
+
 
 /* Link Styles */
 
@@ -406,6 +410,10 @@ ul {
     padding-left: 10px;
     padding-right: 5px;
     margin-top: 10px;
+}
+
+.review-description li {
+    list-style-type: none;
 }
 
 .the_review {
