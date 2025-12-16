@@ -7,7 +7,7 @@ tags:
   - posts
   - reviews
 coverImage: /assets/covers/deadfake.png
-description: I haven’t been reading much lately, I think being a college student has gotten me into a slump – I read so much for school, I don’t want to read anything else when I’m done with my homework!
+description: Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, Dead Fake by Vincent Ralph is no exception.
 draft: false
 ---
 {% include "_partials/_netgalley.njk" %}
@@ -34,11 +34,11 @@ The mysterious website allows people to view their own ‘death’ – an AI gen
 </div>
 
 <div class="the_review">
-Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, <em>Dead Fake</em> by Vincent Ralph is no exception.
+Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, _Dead Fake_ by Vincent Ralph is no exception.
 
 ## Characters
 
-The characters in _Dead Fake_ are relatable, even if you aren't a teenager. I think we all know what it is like to have people treat us differently because of something we've been through, which is what Ava experiences as the niece of the most recent murderer in Bleak Haven. I'm sure we can all recall the pain of an unrequited love as well, which again, Ava experiences. Not to mention having a very small friend group, as Ava, Mason, and Willow have with each other. The characters are well written, and the ones who need backstory have it. There was a teacher whose backstory I'd love to read about so maybe one of the series could move into the past a bit - just saying. 
+The characters in _Dead Fake_ are relatable, even if you aren't a teenager. I think we all know what it is like to have people treat us differently because of something we've been through, which is what Ava experiences as the niece of the most recent murderer in Bleak Haven. I'm sure we can all recall the pain of an unrequited love as well, which again, Ava experiences. Not to mention having a very small friend group, as Ava, Mason, and Willow have with each other. The characters are well written, and the ones who need backstory have it. There was a teacher whose backstory I'd love to read about so maybe one of the series could move into the past a bit - just saying.
 
 ## Atmosphere
 
@@ -54,11 +54,11 @@ This plot was great. A town plagued by tragedies and murders? A teenage girl who
 
 ## Intrigue
 
-This book has great intrigue in it. Just when you think you might have an idea of who is killing people in this town, BOOM, you're wrong. Even better, there are things in this book that are designed to throw you off! In all honesty, I'm sincerely hoping that those things that are meant to throw you off are going to pop up in the subsequent books in the series, because now I'm curious. 
+This book has great intrigue in it. Just when you think you might have an idea of who is killing people in this town, BOOM, you're wrong. Even better, there are things in this book that are designed to throw you off! In all honesty, I'm sincerely hoping that those things that are meant to throw you off are going to pop up in the subsequent books in the series, because now I'm curious.
 
 ## Relationships
 
-The relationships in this book are interesting. There's Willow and Conor, who can't seem to keep their eyes and hands off each other most of the time. There's Willow/Mason/Ava's trio of friends. And then there is Ava and Kash - they used to be best friends and now are... not? They're friends but, not at the same time? And I think Ava might be in love with Kash. I would love to know more about some of the relationships and the people in them - especially what with Mason not seeming to have any particular love interest, while the others do. 
+The relationships in this book are interesting. There's Willow and Conor, who can't seem to keep their eyes and hands off each other most of the time. There's Willow/Mason/Ava's trio of friends. And then there is Ava and Kash - they used to be best friends and now are... not? They're friends but, not at the same time? And I think Ava might be in love with Kash. I would love to know more about some of the relationships and the people in them - especially what with Mason not seeming to have any particular love interest, while the others do.
 
 ## Ending
 
