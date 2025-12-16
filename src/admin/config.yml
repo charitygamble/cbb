@@ -1,16 +1,17 @@
 backend:
-  name: github # Use the Netlify standard backend name for external OAuth flows
+  name: github                  # Sveltia's only supported non-commercial backend name
   repo: charitygamble/cbb
   branch: master
   auth_type: pkce
-  
-  # Explicitly define the OAuth provider block
-  oauth:
+
+  # 1. BASE_URL: Points to the new mock API endpoint for the initial check.
+  base_url: https://cozybooksngames.netlify.app/.netlify/functions/auth-api 
+
+  # 2. AUTH BLOCK: Points the actual login button to your custom function.
+  auth:
     provider: github
-    # Add the client_id here, as required by the CMS client for validation
     client_id: Ov23litGh2aaipuMN5sj
-    
-    # Specify the custom function endpoint
+    # The login button's target URL: Your working token exchange function
     base_url: https://cozybooksngames.netlify.app/.netlify/functions/oauth
 media_folder: "src/assets/covers/" # Folder where media files are stored
 public_folder: "/assets/covers/" # Path to files from the site root
