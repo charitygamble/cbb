@@ -25,14 +25,32 @@ draft: true
 <strong>Rating:</strong> <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
-<p>Would You Swipe to Die?</p>
-<p>When the new craze takes over Bleak Haven High, Ava Wilson refuses to join in. As the niece of an infamous murderer, it’s the last thing she needs.</p>
-<p>The mysterious website allows people to view their own ‘death’ – an AI generated version of their final slasher-movie-moments. But, when some of her classmates’ deepfakes are replicated in real life, Ava can either catch the killer…or be the next victim.</p>
+Would You Swipe to Die?
+
+When the new craze takes over Bleak Haven High, Ava Wilson refuses to join in. As the niece of an infamous murderer, it’s the last thing she needs.
+
+The mysterious website allows people to view their own ‘death’ – an AI generated version of their final slasher-movie-moments. But, when some of her classmates’ deepfakes are replicated in real life, Ava can either catch the killer…or be the next victim.
 </div>
 </div>
 
 <div class="the_review">
-<p>Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, <em>Dead Fake</em> by Vincent Ralph is no exception.</p>
-<h2>Characters</h2>
-<p><em>Dead Fake</em>
+Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, <em>Dead Fake</em> by Vincent Ralph is no exception.
+
+## Characters
+
+## Atmosphere
+
+## Writing
+
+## Plot
+
+## Intrigue
+
+## Relationships
+
+## Ending
+
+## Conclusion
+
+_Deep Fake_ is a story that you won't want to put down. I know I didn't. It was the first book I've read in months that wasn't for school, so that should tell you something. I gave this book 5 stars - and I have the second book already queued up on my Kindle!
 </div>
