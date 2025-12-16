@@ -2,12 +2,12 @@
 
 <div class="review-info">
 <img src="/assets/covers/BOOK_COVER_HERE.jpg" alt=" Cover">
-__Title:__ <br>
-__Author:__ <br>
-__Publisher:__ <br>
-__Publication Date:__ <br>
-__Genre(s):__ <br>
-__Source:__ <br>
+__Title:__ 
+__Author:__ 
+__Publisher:__ 
+__Publication Date:__ 
+__Genre(s):__ 
+__Source:__ 
 __Rating:__ <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
