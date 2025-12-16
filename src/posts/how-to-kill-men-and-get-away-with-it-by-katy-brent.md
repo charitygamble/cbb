@@ -13,7 +13,7 @@ draft: false
 {% include "_partials/_publisher.njk" %}
 
 <div class="review-info">
-<img src="/src/assets/covers/howtokillmen.webp" align="left" alt="How to Kill Men and Get Away With It Cover">
+<img src="/assets/covers/howtokillmen.webp" alt="How to Kill Men and Get Away With It Cover">
 <strong>Title:</strong> How to Kill Men and Get Away With It<br>
 <strong>Author:</strong> Katy Brent<br>
 <strong>Publisher:</strong> HarperCollins UK<br>
