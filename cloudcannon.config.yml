@@ -1,0 +1,12 @@
+paths:
+  static: src
+  uploads: src/assets/covers
+timezone: America/Denver
+markdown:
+  engine: commonmark
+  options:
+    html: true
+collections_config:
+  src_posts:
+    path: src/posts
+    icon: signpost
