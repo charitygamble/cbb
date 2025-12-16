@@ -11,6 +11,9 @@ collections:
    folder: "src/posts"      #The folder that our blog posts will be loaded from and saved to
    create: true             #Tells the CMS that new posts can be created
    identifier_field: "title"  #this sets the URL for the post
+   preview: 
+      fields:
+         - body
    fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/post.njk"}
       - {label: "Title", name: "title", widget: "string"}
