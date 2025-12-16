@@ -19,4 +19,5 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, required: false}
       - {label: "Cover Image Path", name: "coverImage", widget: "string", required: false}
       - {label: "Description", name: "description", widget: "string"}
+      - {lable: "Status: Draft/Published", name: "draft", widget: "boolean", default: true, hint: "Set to FALSE to publish this post."}
       - {label: "Body", name: "body", widget: "markdown"}
