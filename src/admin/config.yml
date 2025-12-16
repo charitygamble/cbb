@@ -1,7 +1,7 @@
 backend:
-  name: git-gateway # Use the Netlify standard backend name for external OAuth flows
-  repo: <YOUR-GITHUB-USERNAME>/<YOUR-REPO-NAME>
-  branch: main
+  name: githb # Use the Netlify standard backend name for external OAuth flows
+  repo: charitygamble/cbb
+  branch: master
   auth_type: pkce
   
   # Explicitly define the OAuth provider block
