@@ -104,6 +104,6 @@ The book’s ending was a surprise but also quite satisfying. All of our cases h
 
 ## Conclusion
 
-I gave this one 4.5 stars because it is truly a great read. It kept me on my toes and made me want to read the rest of the series, plus any that come out later on. I highly recommend it to my thriller lovers, especially if you like thrillers set in England.
+I gave this one 4 stars because it is truly a great read. It kept me on my toes and made me want to read the rest of the series, plus any that come out later on. I highly recommend it to my thriller lovers, especially if you like thrillers set in England.
 
 </div>
