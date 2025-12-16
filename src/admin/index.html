@@ -6,6 +6,32 @@
   <title>Content Manager</title>
 </head>
 <body>
+    <script>
+    // CRITICAL: Tells the CMS to wait for manual configuration
+    window.CMS_MANUAL_INIT = true;
+
+    // This is the complete configuration object, matching your config.yml
+    window.CMS_CONFIG = {
+        backend: {
+            name: 'github',
+            repo: 'charitygamble/cbb',
+            branch: 'master',
+            auth_type: 'pkce',
+            base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/auth-api', // Still using the mock for the initial check
+            auth: {
+                provider: 'github',
+                client_id: '<YOUR-PUBLIC-GITHUB-CLIENT-ID>',
+                base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/oauth' // The working function
+            }
+        },
+        // Add other top-level configs here if needed (e.g., media_folder, collections)
+        media_folder: 'static/uploads',
+        public_folder: '/uploads',
+        collections: [ 
+            // ... YOUR FULL COLLECTION ARRAY HERE ...
+        ]
+    };
+</script>
   <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
 </body>
 </html>
