@@ -1,5 +1,5 @@
 backend:
-  name: githb # Use the Netlify standard backend name for external OAuth flows
+  name: github # Use the Netlify standard backend name for external OAuth flows
   repo: charitygamble/cbb
   branch: master
   auth_type: pkce
