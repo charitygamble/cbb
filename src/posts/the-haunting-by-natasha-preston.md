@@ -8,24 +8,24 @@ tags:
   - reviews
 coverImage: src/assets/covers/thehaunting.webp
 description: No need, I don't use it anymore.
-draft: true
+draft: false
 ---
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
 <img src="/assets/covers/thehaunting.webp" alt="The Haunting Cover">
 
-__Title:__ The Haunting
-__Author:__ Natasha Preston
-__Publisher:__ Random House Children's Books
-__Publication Date:__ September 26, 2023
-__Genre(s):__ YA Horror
-__Source:__ NetGalley
-__Rating:__ <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+**Title:** The Haunting
+**Author:** Natasha Preston
+**Publisher:** Random House Children's Books
+**Publication Date:** September 26, 2023
+**Genre(s):** YA Horror
+**Source:** NetGalley
+**Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
 
-**#1_&#160;New York Times&#160;_and_&#160;USA TODAY bestselling&#160;_author Natasha Preston is back with another pulse-pounding, twisty read!**
+**#1_ New York Times _and_ USA TODAY bestselling _author Natasha Preston is back with another pulse-pounding, twisty read!**
 
 **Haunted by the past . . .**
 
