@@ -18,15 +18,26 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/admin')
     
     eleventyConfig.addCollection('posts', function(collectionsApi) {
-        let allItems = collectionsApi.getAll();
-        let posts = allItems.filter(item =>
-            item.data.tags && item.data.tags.includes('posts')
-        );
-        posts.sort((a, b) => {
-            return b.date.getTime() - a.date.getTime();
-        });
-        return posts;
+    let allItems = collectionsApi.getAll();
+    
+    // 1. Filter to include only items tagged 'posts'
+    let taggedPosts = allItems.filter(item =>
+        item.data.tags && item.data.tags.includes('posts')
+    );
+    
+    // 2. Filter the tagged posts to exclude drafts
+    let publishedPosts = taggedPosts.filter(item => 
+        !item.data.draft
+    );
+    
+    // 3. Sort the resulting published posts
+    publishedPosts.sort((a, b) => {
+        return b.date.getTime() - a.date.getTime();
     });
+    
+    // Return ONLY the published, sorted posts
+    return publishedPosts;
+});
 
 
     return {
