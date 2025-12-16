@@ -330,6 +330,10 @@ ul {
     color: var(--gravemoss);
 }
 
+.post {
+    padding-top: 10px;
+}
+
 .post-image {
     padding-right: 10px;
 }
