@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: post.njk
 title: How to Kill Men and Get Away with It by Katy Brent
 date: 2023-10-30
 author: Charli
