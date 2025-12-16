@@ -1,6 +1,6 @@
 backend:
-  name: github
-  auth_type: implicit
+  name: netlify
+  auth_type: pkce
   repo: charitygamble/cbb # e.g., 'myuser/my-new-site'
   branch: master # or master
   base_url: https://cozybooksngames.netlify.app/.netlify/functions/auth
