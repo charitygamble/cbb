@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/allhopeofhuman.jpeg"
 description: When I saw All Hope of Becoming Human by Lonnie Busch in the Edelweiss+ “to download” category, I thought it sounded interesting, so I decided to give it a try. I’m glad I did! 
 ---
-
+<br>
 {% include "_partials/_edelweiss.njk" %}
 
 <div class="review-info">

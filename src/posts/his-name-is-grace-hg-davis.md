@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/hisnameisgrace.webp"
 description: Sometimes you just need a quick read to get yourself back into the spirit of reading, and His Name is Grace by H. G. Davis was a perfect quick read to do that for me. At just 152 pages (1,795 locations on Kindle)...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

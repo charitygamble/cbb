@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/ifyoucanhearthis.png"
 description: In my quest to work through my NetGalley queue, I started reading If You Can Hear This by Faith Gardner. I have another book by Ms. Gardner in my NetGalley queue as well...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

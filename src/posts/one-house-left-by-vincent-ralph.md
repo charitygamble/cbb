@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/onehouseleft.png"
 description: If you’re a fan of urban legends, then One House Left by Vincent Ralph is definitely a book you should check out. Playing around with Bloody Mary or Death Number 999-9999...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

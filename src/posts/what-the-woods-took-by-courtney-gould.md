@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/whatthewoodstook.png"
 description: I periodically receive emails from NetGalley telling me what books are "Read Now". In the most recent email, _What the Woods Took_ was listed among the books on offer.
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

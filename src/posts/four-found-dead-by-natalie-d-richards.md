@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/four-found-dead-by-natalie-d-richards.jpg"
 description: Four Found Dead was one of those books that took me a while to read - mostly because it was a case of "right book, wrong time". I tried several times to read...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

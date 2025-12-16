@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/a-darker-mischief-by-derek-milman.jpg"
 description: I love secret societies. Whenever I read a book set in a school, that is one of my biggest hopes – that there is some sort of secret society involved in the plot. Well, with A Darker Mischief...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

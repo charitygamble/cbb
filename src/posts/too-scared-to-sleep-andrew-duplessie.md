@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/tooscaredtosleep.webp"
 description: Come on, it’s horror. You know I had to give it a shot. It’s meant for teens/young adults, so it isn’t super scary – or maybe I’m just so jaded when it comes to horror...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

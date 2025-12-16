@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/buriedsecrets.jpeg"
 description: I picked up Buried Secrets a while ago while perusing the Edelweiss+ gallery of books that could be freely downloaded, but didn’t get around to reading it right away. 
 ---
-
+<br>
 {% include "_partials/_edelweiss.njk" %}
 
 <div class="review-info">

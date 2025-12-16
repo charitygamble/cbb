@@ -10,6 +10,7 @@ coverImage: src/assets/covers/thehaunting.webp
 description: No need, I don't use it anymore.
 draft: false
 ---
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

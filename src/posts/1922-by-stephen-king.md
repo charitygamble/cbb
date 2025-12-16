@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/1922-by-stephen-king.jpg"
 description: If you know me, you probably know that I am a fan of Stephen King’s work. Honestly, about the only book of his that I have never quite been able to get into is Holly, and I think that is...
 ---
-
+<br>
 <div class="review-info">
 <img src="/assets/covers/1922-by-stephen-king.jpg" alt="1922 Book Cover">
 <strong>Title:</strong> 1922<br>

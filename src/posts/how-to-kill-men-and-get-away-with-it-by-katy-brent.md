@@ -10,6 +10,7 @@ coverImage: /src/assets/covers/howtokillmen.webp
 description: I don't have one yet.
 draft: false
 ---
+<br>
 {% include "_partials/_publisher.njk" %}
 
 <div class="review-info">

@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/the-lamplighter-by-crystal-j-bell.jpg"
 description: I have to say – this book would have been a great read in October and indeed, I may have to re-read it for October. This book is perfectly creepy, what with a fog that covers the town...
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

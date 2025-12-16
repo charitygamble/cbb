@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/thedebutantes.png"
 description: When I chose to read The Debutantes by Olivia Worley, I did so based purely on the cover. I love the cover to this book so much, even though I can’t exactly tell you why.
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

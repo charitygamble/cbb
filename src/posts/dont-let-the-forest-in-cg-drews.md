@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/dontlettheforestin.jpg"
 description: I’m amazed that I’ve managed to read multiple books in the past few days, but it happened. This time, I finally got off my butt and read Don’t Let the Forest In by CG Drews. 
 ---
-
+<br>
  {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

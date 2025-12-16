@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/blurringthelines.jpg"
 description: Blurring the Lines + Extras is a prequel novella with some extra tidbits for the Blind Rebels series, all wrapped into one tidy little package. This book does contain spoilers...
 ---
-
+<br>
  {% include "_partials/_author.njk" %}
 
 <div class="review-info">

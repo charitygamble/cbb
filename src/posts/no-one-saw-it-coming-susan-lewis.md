@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/noonesawitcoming.jpg"
 description: I haven’t been reading much lately, I think being a college student has gotten me into a slump – I read so much for school, I don’t want to read anything else when I’m done with my homework!
 ---
-
+<br>
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">

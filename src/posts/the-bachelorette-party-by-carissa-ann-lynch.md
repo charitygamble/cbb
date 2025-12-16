@@ -9,7 +9,7 @@ tags:
 coverImage: "/assets/covers/thebacheloretteparty.jpeg"
 description: I just want to thank HarperCollins for sending me this book – I got it late September/early October last year and just now got around to reading it. As per usual when it takes me awhile...
 ---
-
+<br>
 {% include "_partials/_publisher.njk" %}
 
 <div class="review-info">
