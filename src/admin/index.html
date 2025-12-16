@@ -6,50 +6,6 @@
     <title>Content Manager</title>
 </head>
 <body>
-
-    <script>
-        window.CMS_MANUAL_INIT = true;
-        
-        window.CMS_CONFIG = {
-            backend: {
-                name: 'github',
-                repo: 'charitygamble/cbb',
-                branch: 'master',
-                // auth_type: 'pkce',
-                
-                // This points to the mock API check
-                base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/auth-api', 
-                
-                auth: {
-                    provider: 'github',
-                    client_id: 'Ov23litGh2aaipuMN5sj',
-                    base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/oauth'
-                }
-            },
-            
-            // Only include the bare minimum for file management, or remove for testing
-            media_folder: 'static/uploads',
-            public_folder: '/uploads',
-            
-            // Temporary: REMOVE THE ENTIRE 'collections' BLOCK for testing. 
-            // If the collections block is large or complex, it often causes blank screen errors.
-            collections: [ 
-                // For a blank page test, just include one minimal collection
-                {
-                    name: 'test',
-                    label: 'Test Page',
-                    files: [{
-                        label: 'Home',
-                        name: 'home',
-                        file: 'index.md',
-                        fields: [ {label: 'Title', name: 'title', widget: 'string'} ]
-                    }]
-                }
-            ]
-        };
-    </script>
-
     <script src="https://unpkg.com/@sveltia/cms@latest/dist/sveltia-cms.js"></script>
-
 </body>
 </html>
