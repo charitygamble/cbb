@@ -13,7 +13,7 @@ description: I picked up Buried Secrets a while ago while perusing the Edelweiss
 {% include "_partials/_edelweiss.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/buriedsecrets.jpeg" align="left" alt="Buried Secrets Book Cover">
+<img src="/assets/covers/buriedsecrets.jpeg" alt="Buried Secrets Book Cover">
 <strong>Title:</strong> Buried Secrets<br>
 <strong>Author:</strong> S. F. Baumgartner<br>
 <strong>Publisher:</strong> FB Publishing<br>

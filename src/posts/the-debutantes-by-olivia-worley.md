@@ -13,7 +13,7 @@ description: When I chose to read The Debutantes by Olivia Worley, I did so base
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/thedebutantes.png" align="left" alt="The Debutantes Cover">
+<img src="/assets/covers/thedebutantes.png" alt="The Debutantes Cover">
 <strong>Title:</strong> The Debutantes<br>
 <strong>Author:</strong> Olivia Worley<br>
 <strong>Publisher:</strong> St. Martin's Publishing Group<br>

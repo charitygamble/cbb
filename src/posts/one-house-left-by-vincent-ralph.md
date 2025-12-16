@@ -13,7 +13,7 @@ description: If you’re a fan of urban legends, then One House Left by Vincent 
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/onehouseleft.png" align="left" alt="One House Left Book Cover">
+<img src="/assets/covers/onehouseleft.png" alt="One House Left Book Cover">
 <strong>Title:</strong> One House Left<br>
 <strong>Author:</strong> Vincent Ralph<br>
 <strong>Publisher:</strong> St. Martin's Publishing Group<br>

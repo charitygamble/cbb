@@ -11,7 +11,7 @@ description: If you know me, you probably know that I am a fan of Stephen Kingâ€
 ---
 
 <div class="review-info">
-<img src="/assets/covers/1922-by-stephen-king.jpg" align="left" alt="1922 Book Cover">
+<img src="/assets/covers/1922-by-stephen-king.jpg" alt="1922 Book Cover">
 <strong>Title:</strong> 1922<br>
 <strong>Author:</strong> Stephen King<br>
 <strong>Publisher:</strong> Hodder &amp; Stoughton<br>

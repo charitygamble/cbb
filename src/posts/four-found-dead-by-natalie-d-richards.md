@@ -13,7 +13,7 @@ description: Four Found Dead was one of those books that took me a while to read
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/four-found-dead-by-natalie-d-richards.jpg" align="left" alt="Four Found Dead Book Cover">
+<img src="/assets/covers/four-found-dead-by-natalie-d-richards.jpg" alt="Four Found Dead Book Cover">
 <strong>Title:</strong> Four Found Dead<br>
 <strong>Author:</strong> Natalie D. Richards<br>
 <strong>Publisher:</strong> Sourcebooks<br>

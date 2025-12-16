@@ -13,7 +13,7 @@ description: I have to say – this book would have been a great read in October
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/the-lamplighter-by-crystal-j-bell.jpg" align="left" alt="The Lamplighter Book Cover">
+<img src="/assets/covers/the-lamplighter-by-crystal-j-bell.jpg" alt="The Lamplighter Book Cover">
 <strong>Title:</strong> The Lamplighter<br>
 <strong>Author:</strong> Crystal J. Bell<br>
 <strong>Publisher:</strong> North Star Editions<br>

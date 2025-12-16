@@ -336,6 +336,7 @@ ul {
 
 .post-image {
     padding-right: 10px;
+    float: left;
 }
 
 .post-date {
@@ -343,6 +344,7 @@ ul {
 }
 
 .review-info img {
+    float: left;
     padding-right: .9375em;
     margin-top: -30px;
     margin-left: -15px;

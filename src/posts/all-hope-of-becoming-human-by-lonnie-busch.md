@@ -13,7 +13,7 @@ description: When I saw All Hope of Becoming Human by Lonnie Busch in the Edelwe
 {% include "_partials/_edelweiss.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/allhopeofhuman.jpeg" align="left" alt="All Hope of Becoming Human Book Cover">
+<img src="/assets/covers/allhopeofhuman.jpeg" alt="All Hope of Becoming Human Book Cover">
 <strong>Title:</strong> All Hope of Becoming Human<br>
 <strong>Author:</strong> Lonnie Busch<br>
 <strong>Publisher:</strong> UBiQ Press<br>

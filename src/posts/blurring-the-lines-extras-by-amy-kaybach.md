@@ -13,7 +13,7 @@ description: Blurring the Lines + Extras is a prequel novella with some extra ti
  {% include "_partials/_author.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/blurringthelines.jpg" align="left" alt="Blurring the Lines Book Cover">
+<img src="/assets/covers/blurringthelines.jpg" alt="Blurring the Lines Book Cover">
 <strong>Title:</strong> Blurring the Lines + Extras<br>
 <strong>Author:</strong> Amy Kaybach<br>
 <strong>Publisher:</strong> Self-Published<br>

@@ -13,7 +13,7 @@ description: I love secret societies. Whenever I read a book set in a school, th
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/a-darker-mischief-by-derek-milman.jpg" align="left" alt="A Darker Mischief Book Cover">
+<img src="/assets/covers/a-darker-mischief-by-derek-milman.jpg" alt="A Darker Mischief Book Cover">
 <strong>Title:</strong> A Darker Mischief<br>
 <strong>Author:</strong> Derek Milman<br>
 <strong>Publisher:</strong> Scholastic Inc.<br>

@@ -9,7 +9,7 @@ coverImage: "/assets/covers/acnh.webp"
 description: The Switch 2 launched about a month ago. And if you are part of the Animal Crossing community, you know that the community is on the edge...
 ---
 
-<img src="/assets/covers/acnh.webp" align="left" class="post-image">
+<img src="/assets/covers/acnh.webp" class="post-image">
 <p>The Switch 2 launched about a month ago. And if you are part of the Animal Crossing community, you know that the community is on the edge of their seats. Why? Because the rumor is that a new Animal Crossing game will be announced for the Switch 2 with a release date in 2026. I don’t think that’s the case, and here is why.</p>
 
 <h2>Animal Crossing is <em>not</em> a Launch Game</h2>

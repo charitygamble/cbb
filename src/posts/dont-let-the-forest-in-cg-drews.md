@@ -13,7 +13,7 @@ description: I’m amazed that I’ve managed to read multiple books in the past
  {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/dontlettheforestin.jpg" align="left" alt="Don't Let the Forest In Book Cover" class="book-cover">
+<img src="/assets/covers/dontlettheforestin.jpg" alt="Don't Let the Forest In Book Cover" class="book-cover">
 <strong>Title:</strong> Don't Let the Forest In<br>
 <strong>Author:</strong> CG Drews<br>
 <strong>Publisher:</strong> Feiwel & Friends<br>

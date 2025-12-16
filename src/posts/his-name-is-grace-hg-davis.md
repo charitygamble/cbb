@@ -13,7 +13,7 @@ description: Sometimes you just need a quick read to get yourself back into the 
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/hisnameisgrace.webp" align="left" alt="His Name is Grace Cover">
+<img src="/assets/covers/hisnameisgrace.webp" alt="His Name is Grace Cover">
 <strong>Title:</strong> His Name is Grace<br>
 <strong>Author:</strong> H. G. Davis<br>
 <strong>Publisher:</strong> Self-Published<br>

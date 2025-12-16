@@ -13,7 +13,7 @@ description: I haven’t been reading much lately, I think being a college stude
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/noonesawitcoming.jpg" align="left" alt="No One Saw It Coming Cover">
+<img src="/assets/covers/noonesawitcoming.jpg" alt="No One Saw It Coming Cover">
 <strong>Title:</strong> No One Saw It Coming<br>
 <strong>Author:</strong> Susan Lewis<br>
 <strong>Publisher:</strong> HarperCollins UK<br>

@@ -13,7 +13,7 @@ description: Come on, it’s horror. You know I had to give it a shot. It’s me
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/tooscaredtosleep.webp" align="left" alt="Too Scared to Sleep Cover">
+<img src="/assets/covers/tooscaredtosleep.webp" alt="Too Scared to Sleep Cover">
 <strong>Title:</strong> Too Scared to Sleep<br>
 <strong>Author:</strong> Andrew Duplessie<br>
 <strong>Publisher:</strong> HarperCollins<br>

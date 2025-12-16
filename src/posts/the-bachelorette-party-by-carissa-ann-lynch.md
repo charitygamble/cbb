@@ -13,7 +13,7 @@ description: I just want to thank HarperCollins for sending me this book – I g
 {% include "_partials/_publisher.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/thebacheloretteparty.jpeg" align="left" alt="The Bachelorette Party Book Cover">
+<img src="/assets/covers/thebacheloretteparty.jpeg" alt="The Bachelorette Party Book Cover">
 <strong>Title:</strong> The Bachelorette Party<br>
 <strong>Author:</strong> Carissa Ann Lynch<br>
 <strong>Publisher:</strong> HarperCollins UK<br>

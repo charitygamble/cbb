@@ -13,7 +13,7 @@ description: I periodically receive emails from NetGalley telling me what books 
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/whatthewoodstook.png" align="left" alt="What the Woods Took Cover">
+<img src="/assets/covers/whatthewoodstook.png" alt="What the Woods Took Cover">
 <strong>Title:</strong> What the Woods Took<br>
 <strong>Author:</strong> Courtney Gould<br>
 <strong>Publisher:</strong> St. Martin's Publishing Group<br>

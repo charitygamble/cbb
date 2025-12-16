@@ -13,7 +13,7 @@ description: In my quest to work through my NetGalley queue, I started reading I
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/ifyoucanhearthis.png" align="left" alt="If You Can Hear This Book Cover">
+<img src="/assets/covers/ifyoucanhearthis.png" alt="If You Can Hear This Book Cover">
 <strong>Title:</strong> If You Can Hear This<br>
 <strong>Author:</strong> Faith Gardner<br>
 <strong>Publisher:</strong> HarperCollins<br>
