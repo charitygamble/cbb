@@ -1,10 +1,11 @@
 ---
-layout: post.njk
+layout: layouts/post.njk
 title: How to Kill Men and Get Away with It by Katy Brent
 date: 2023-10-30
 author: Charli
 tags:
-  - posts, reviews
+  - posts
+  - reviews
 coverImage: /src/assets/covers/howtokillmen.webp
 description: I don't have one yet.
 draft: false
@@ -12,7 +13,7 @@ draft: false
 {% include "_partials/_publisher.njk" %}
 
 <div class="review-info">
-<img src="/src/assets/covers/howtokillmen.webp" alt="How to Kill Men and Get Away With It Cover">
+<img src="/src/assets/covers/howtokillmen.webp" align="left" alt="How to Kill Men and Get Away With It Cover">
 <strong>Title:</strong> How to Kill Men and Get Away With It<br>
 <strong>Author:</strong> Katy Brent<br>
 <strong>Publisher:</strong> HarperCollins UK<br>
@@ -84,6 +85,5 @@ The ending to this one contains a plot twist that you won’t see coming. It inv
 ## Conclusion
 
 All in all this one was a good book and I would recommend it to those looking for a mystery/thriller that is a little bit different. I gave this one 4 out of 5 stars. I will definitely check out Katy Brent’s future works.
-
 
 </div>
