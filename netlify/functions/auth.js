@@ -1,11 +1,11 @@
 // The function is exposed at /netlify/functions/auth
+// 2. Define the security credentials from Netlify Environment Variables
+    const client_id = process.env.GITHUB_CLIENT_ID;
+    const client_secret = process.env.GITHUB_CLIENT_SECRET;
+
 exports.handler = async (event, context) => {
     // 1. Get the code from the request query string
     const code = event.queryStringParameters.code;
-
-    // 2. Define the security credentials from Netlify Environment Variables
-    const client_id = process.env.GITHUB_CLIENT_ID;
-    const client_secret = process.env.GITHUB_CLIENT_SECRET;
 
     if (!code || !client_id || !client_secret) {
         return { statusCode: 400, body: 'Missing required parameters.' };
