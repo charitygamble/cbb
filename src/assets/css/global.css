@@ -360,7 +360,7 @@ ul {
         padding-top: .9375em;
         margin-left: .8125em;
         margin-top: 1.875em;
-
+        clear: left;
     }
 
 .review-description {
