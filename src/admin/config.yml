@@ -2,7 +2,7 @@ backend:
   name: github                  # Sveltia's only supported non-commercial backend name
   repo: charitygamble/cbb
   branch: master
-  auth_backend_url: http://sveltia-cms-auth.charlibydesign.workers.dev
+  base_url: http://sveltia-cms-auth.charlibydesign.workers.dev
 media_folder: "src/assets/covers/" # Folder where media files are stored
 public_folder: "/assets/covers/" # Path to files from the site root
 collections:
