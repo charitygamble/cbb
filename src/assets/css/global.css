@@ -334,6 +334,10 @@ ul {
     padding-right: 10px;
 }
 
+.post-date {
+    padding-bottom: 10px;
+}
+
 .review-info img {
     padding-right: .9375em;
     margin-top: -30px;
