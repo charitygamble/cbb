@@ -1,37 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Content Manager</title>
 </head>
 <body>
-    <script>
-    // CRITICAL: Tells the CMS to wait for manual configuration
-    window.CMS_MANUAL_INIT = true;
 
-    // This is the complete configuration object, matching your config.yml
-    window.CMS_CONFIG = {
-        backend: {
-            name: 'github',
-            repo: 'charitygamble/cbb',
-            branch: 'master',
-            auth_type: 'pkce',
-            base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/auth-api', // Still using the mock for the initial check
-            auth: {
-                provider: 'github',
-                client_id: 'Ov23litGh2aaipuMN5sj',
-                base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/oauth' // The working function
-            }
-        },
-        // Add other top-level configs here if needed (e.g., media_folder, collections)
-        media_folder: 'static/uploads',
-        public_folder: '/uploads',
-        collections: [ 
-            // ... YOUR FULL COLLECTION ARRAY HERE ...
-        ]
-    };
-</script>
-  <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js" type="module"></script>
+    <script>
+        window.CMS_MANUAL_INIT = true;
+        
+        window.CMS_CONFIG = {
+            backend: {
+                name: 'github',
+                repo: '<YOUR-GITHUB-USERNAME>/<YOUR-REPO-NAME>',
+                branch: 'main',
+                auth_type: 'pkce',
+                
+                // This points to the mock API check
+                base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/auth-api', 
+                
+                auth: {
+                    provider: 'github',
+                    client_id: '<YOUR-PUBLIC-GITHUB-CLIENT-ID>',
+                    base_url: 'https://cozybooksngames.netlify.app/.netlify/functions/oauth'
+                }
+            },
+            
+            // Only include the bare minimum for file management, or remove for testing
+            media_folder: 'static/uploads',
+            public_folder: '/uploads',
+            
+            // Temporary: REMOVE THE ENTIRE 'collections' BLOCK for testing. 
+            // If the collections block is large or complex, it often causes blank screen errors.
+            collections: [ 
+                // For a blank page test, just include one minimal collection
+                {
+                    name: 'test',
+                    label: 'Test Page',
+                    files: [{
+                        label: 'Home',
+                        name: 'home',
+                        file: 'index.md',
+                        fields: [ {label: 'Title', name: 'title', widget: 'string'} ]
+                    }]
+                }
+            ]
+        };
+    </script>
+
+    <script src="https://unpkg.com/@sveltia/cms@latest/dist/sveltia-cms.js"></script>
+
 </body>
 </html>
