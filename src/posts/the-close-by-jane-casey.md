@@ -8,7 +8,7 @@ tags:
   - reviews
 coverImage: src/assets/theclosejanecasey.webp
 description: I don't have one.
-draft: true
+draft: false
 ---
 <br>
 
@@ -18,14 +18,14 @@ draft: true
 
 <img src="/assets/covers/theclosejanecasey.webp" alt=" Cover">
 
-__Title:__  The Close
-__Series:__  Maeve Kerrigan #10
-__Author:__  Jane Casey
-__Publisher:__  HarperCollins
-__Publication Date:__  March 2, 2023
-__Genre(s):__ Mystery &amp; Thriller
-__Source:__ Publisher
-__Rating:__ <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+**Title:**  The Close
+**Series:**  Maeve Kerrigan #10
+**Author:**  Jane Casey
+**Publisher:**  HarperCollins
+**Publication Date:**  March 2, 2023
+**Genre(s):** Mystery &amp; Thriller
+**Source:** Publisher
+**Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 <div class="review-description">
 
 ‘If you haven’t read Jane Casey, start immediately’ Marian Keyes, the Sunday Times No.1 Bestseller Suburban bliss
