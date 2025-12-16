@@ -1,10 +1,17 @@
 backend:
-  name: github
+  name: git-gateway # Use the Netlify standard backend name for external OAuth flows
+  repo: <YOUR-GITHUB-USERNAME>/<YOUR-REPO-NAME>
+  branch: main
   auth_type: pkce
-  repo: charitygamble/cbb # e.g., 'myuser/my-new-site'
-  branch: master # or master
-  base_url: https://cozybooksngames.netlify.app/.netlify/functions/oauth
-  client_id: Ov23litGh2aaipuMN5sj
+  
+  # Explicitly define the OAuth provider block
+  oauth:
+    provider: github
+    # Add the client_id here, as required by the CMS client for validation
+    client_id: Ov23litGh2aaipuMN5sj
+    
+    # Specify the custom function endpoint
+    base_url: https://cozybooksngames.netlify.app/.netlify/functions/oauth
 media_folder: "src/assets/covers/" # Folder where media files are stored
 public_folder: "/assets/covers/" # Path to files from the site root
 collections:
