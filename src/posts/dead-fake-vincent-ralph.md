@@ -10,12 +10,10 @@ coverImage: /assets/covers/deadfake.png
 description: Again, we all know I love horror and I love YA novels, so a combination of the two is a dream come true. Trust me when I say, Dead Fake by Vincent Ralph is no exception.
 draft: false
 ---
-<br><br>
-
 {% include "_partials/_netgalley.njk" %}
 
 <div class="review-info">
-<img src="/assets/covers/deadfake.png" alt="Dead Fake Cover">
+<img src="/assets/covers/deadfake.png" align="left" alt="Dead Fake Cover">
 <strong>Title:</strong> Dead Fake<br>
 <strong>Series:</strong> Bleak Haven #1<br>
 <strong>Author:</strong> Vincent Ralph<br>
