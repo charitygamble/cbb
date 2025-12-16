@@ -1,8 +1,8 @@
 // netlify/functions/auth.js
 
 // 1. Define variables at the global scope to ensure Netlify loads them
-const client_id = process.env.GITHUB_CLIENT_ID;
-const client_secret = process.env.GITHUB_CLIENT_SECRET;
+const client_id = process.env['GITHUB_CLIENT_ID'];
+const client_secret = process.env['GITHUB_CLIENT_SECRET'];
 const fetch = global.fetch; // Use the native fetch API available in Node 20
 
 exports.handler = async (event, context) => {
