@@ -38,6 +38,10 @@ Again, we all know I love horror and I love YA novels, so a combination of the t
 
 ## Characters
 
+_Deep Fake_ has quite a few characters, but there are only a few that actually matter when you really get down to it. 
+
+First, there's Ava. Obviously she matters because she's the main character... and the character from whose point of view we are viewing this story. I liked her because she's tough. She's the niece of a serial killer - Bleak Haven's most recent serial killer no less - and it shows in the way she handles herself. She's cautious when she needs to be, but she can also be bold when the situation calls for it. 
+
 ## Atmosphere
 
 ## Writing
