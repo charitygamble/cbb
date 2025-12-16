@@ -5,7 +5,7 @@ date: 2023-10-30
 author: Charli
 tags:
   - posts, reviews
-coverImage: ''
+coverImage: /src/assets/covers/howtokillmen.webp
 description: I don't have one yet.
 draft: false
 ---
