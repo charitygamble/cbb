@@ -6,9 +6,9 @@ author: Charli
 tags:
   - posts
   - interviews
-coverImage: src/assets/covers/coverkenai.webp
+coverImage: /src/assets/covers/coverkenai.webp
 description: Interview with Dave Dobson
-draft: true
+draft: false
 ---
 Today I’m pleased to bring you an interview with Dave Dobson, author of Kenai. This interview is part of my stop on the blog tour organized by Escapist Book Co. Thank you for allowing me to participate, and thank you to Dave Dobson for answering my questions.
 
@@ -52,11 +52,11 @@ familiar.
 
 <img src="/assets/covers/coverkenai.webp" alt="Kenai Cover">
 
-__Title:__  Kenai
-__Author:__ Dave Dobson
-__Publisher:__ Self-Published
-__Publication Date:__ May 24, 2023
-__Genre(s):__ Science Fiction
+**Title:**  Kenai
+**Author:** Dave Dobson
+**Publisher:** Self-Published
+**Publication Date:** May 24, 2023
+**Genre(s):** Science Fiction
 
 <div class="review-description">
 
