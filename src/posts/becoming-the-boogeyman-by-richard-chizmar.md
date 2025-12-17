@@ -18,14 +18,14 @@ draft: false
 
 <img src="/assets/covers/becomingtheboogeyman.webp" alt="Becoming the Boogeyman Cover">
 
-__Title:__ Becoming the Boogeyman
-__Series:__ The Boogeyman #2
-__Author:__ Richard Chizmar
-__Publisher:__ Simon and Schuster 
-__Publication Date:__ October 10, 2023
-__Genre(s):__ Horror, Crime
-__Source:__ Author
-__Rating:__ <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+**Title:** Becoming the Boogeyman<br>
+**Series:** The Boogeyman #2<br>
+**Author:** Richard Chizmar<br>
+**Publisher:** Simon and Schuster<br>
+**Publication Date:** October 10, 2023<br>
+**Genre(s):** Horror, Crime<br>
+**Source:** Author<br>
+**Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
 
