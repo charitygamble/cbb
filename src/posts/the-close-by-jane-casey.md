@@ -18,13 +18,13 @@ draft: false
 
 <img src="/assets/covers/theclosejanecasey.webp" alt=" Cover">
 
-**Title:**  The Close
-**Series:**  Maeve Kerrigan #10
-**Author:**  Jane Casey
-**Publisher:**  HarperCollins
-**Publication Date:**  March 2, 2023
-**Genre(s):** Mystery &amp; Thriller
-**Source:** Publisher
+**Title:**  The Close<br>
+**Series:**  Maeve Kerrigan #10<br>
+**Author:**  Jane Casey<br>
+**Publisher:**  HarperCollins<br>
+**Publication Date:**  March 2, 2023<br>
+**Genre(s):** Mystery &amp; Thriller<br>
+**Source:** Publisher<br>
 **Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 <div class="review-description">
 
