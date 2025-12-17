@@ -17,12 +17,12 @@ draft: false
 <div class="review-info">
 <img src="/assets/covers/hatchetgirls.jpg" alt="Hatchet Girls Cover">
 
-**Title:** Hatchet Girls
-**Author:** Diana Rodriguez Wallach
-**Publisher:** Random House Children's Books
-**Publication Date:** October 10, 2023
-**Genre(s):** YA Horror
-**Source:** NetGalley
+**Title:** Hatchet Girls<br>
+**Author:** Diana Rodriguez Wallach<br>
+**Publisher:** Random House Children's Books<br>
+**Publication Date:** October 10, 2023<br>
+**Genre(s):** YA Horror<br>
+**Source:** NetGalley<br>
 **Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
