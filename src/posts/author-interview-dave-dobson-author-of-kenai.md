@@ -6,7 +6,7 @@ author: Charli
 tags:
   - posts
   - interviews
-coverImage: ''
+coverImage: src/assets/covers/coverkenai.webp
 description: Interview with Dave Dobson
 draft: true
 ---
@@ -44,27 +44,19 @@ I don’t restrict my reading to the genres I write, but I write in enough of th
 I tend not to re-read my own books after publishing them, but of course I’ve published most of them recently enough (last 4 years) that it’s hard to know if that’s a lifetime habit or not. I will occasionally go through them doing research on a sequel or on another book, and it’s always fun seeing what I did before. I bet I’ll come back to them in a bit. I have a pretty good memory for plot and dialogue, so it might take me a while before I can forget enough to enjoy my books again without feeling like they’re overly
 familiar.
 
-<hr>
+\*\*\*
 
 <br>
 
 <div class="review-info">
 
-<img src="/assets/covers/BOOK_COVER_HERE.jpg" alt=" Cover">
+<img src="/assets/covers/coverkenai.webp" alt="Kenai Cover">
 
-__Title:__ 
-
-__Author:__ 
-
-__Publisher:__ 
-
-__Publication Date:__ 
-
-__Genre(s):__ 
-
-__Source:__ 
-
-__Rating:__ <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+__Title:__  Kenai
+__Author:__ Dave Dobson
+__Publisher:__ Self-Published
+__Publication Date:__ May 24, 2023
+__Genre(s):__ Science Fiction
 
 <div class="review-description">
 
