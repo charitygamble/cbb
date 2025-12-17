@@ -52,10 +52,10 @@ familiar.
 
 <img src="/assets/covers/coverkenai.webp" alt="Kenai Cover">
 
-**Title:**  Kenai
-**Author:** Dave Dobson
-**Publisher:** Self-Published
-**Publication Date:** May 24, 2023
+**Title:**  Kenai<br>
+**Author:** Dave Dobson<br>
+**Publisher:** Self-Published<br>
+**Publication Date:** May 24, 2023<br>
 **Genre(s):** Science Fiction
 
 <div class="review-description">
