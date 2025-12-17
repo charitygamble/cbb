@@ -16,12 +16,12 @@ draft: false
 <div class="review-info">
 <img src="/assets/covers/thehaunting.webp" alt="The Haunting Cover">
 
-**Title:** The Haunting
-**Author:** Natasha Preston
-**Publisher:** Random House Children's Books
-**Publication Date:** September 26, 2023
-**Genre(s):** YA Horror
-**Source:** NetGalley
+**Title:** The Haunting<br>
+**Author:** Natasha Preston<br>
+**Publisher:** Random House Children's Books<br>
+**Publication Date:** September 26, 2023<br>
+**Genre(s):** YA Horror<br>
+**Source:** NetGalley<br>
 **Rating:** <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
 
 <div class="review-description">
