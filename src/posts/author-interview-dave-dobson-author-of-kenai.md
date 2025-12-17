@@ -60,4 +60,12 @@ familiar.
 
 <div class="review-description">
 
+**A planet steeped in mystery...**
+
+Jess Amiko is long past her days as a space marine, with all the glory of that time tarnished beyond repair by what came after. Trying to rebuild from the ashes, she's taken a job as a security guard on Kenai, a lonely world far from the Council systems. It's supposed to be easy duty - quiet and peaceful, on a docile world with no real threats, watching over an archeological dig at a site built by a race long vanished.
+
+Betrayed and attacked by forces unknown, and finding that nothing on Kenai makes sense, Jess is plunged into a desperate fight for survival that leads her deep into the mysteries of Kenai's past, and deep into the hardship and paradox the planet imposes on all who call it home.
+
+**Content Warning:** violence, suicidal ideation
+
 </div>
